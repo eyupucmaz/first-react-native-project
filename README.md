@@ -1,12 +1,8 @@
 # KODLUYORUZ REACT NATIVE BOOTCAMP | FIRST PROJECT
 
----
-
 ## 📋 Requirements
 
 - Node.js
-
----
 
 ## 🛠️ Create New a Project
 
