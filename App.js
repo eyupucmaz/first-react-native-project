@@ -11,7 +11,7 @@ export default function App() {
 						fontSize: 30,
 					}}
 				>
-					Your Name
+					Your Name:
 				</Text>
 				<TextInput style={styles.textInput} />
 			</View>
@@ -21,7 +21,7 @@ export default function App() {
 						fontSize: 30,
 					}}
 				>
-					Your Mail
+					Your Mail:
 				</Text>
 				<TextInput keyboardType="email-address" style={styles.textInput} />
 			</View>
@@ -31,7 +31,7 @@ export default function App() {
 						fontSize: 30,
 					}}
 				>
-					Your Password
+					Your Password:
 				</Text>
 				<TextInput keyboardType="number-pad" style={styles.textInput} />
 			</View>
@@ -49,6 +49,7 @@ const styles = StyleSheet.create({
 	top: {
 		margin: 20,
 		flex: 0.3,
+		flexDirection: "row",
 		justifyContent: "center",
 		alignItems: "center",
 		backgroundColor: "#5dd39e",
@@ -65,10 +66,12 @@ const styles = StyleSheet.create({
 		borderColor: "#000",
 		justifyContent: "center",
 		alignItems: "center",
+		flexDirection: "row",
 	},
 	bottom: {
 		margin: 20,
 		flex: 0.3,
+		flexDirection: "row",
 		backgroundColor: "#348aa7",
 		borderWidth: 5,
 		borderColor: "#000",
