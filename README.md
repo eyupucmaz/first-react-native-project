@@ -3,6 +3,7 @@
 ## 📋 Requirements
 
 - Node.js
+- EXPO CLI
 
 ## 🛠️ Create New a Project
 
